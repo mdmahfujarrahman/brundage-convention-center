@@ -12,6 +12,6 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-.navbar-text-color a {
-    color: #ffffff;
+.brand-color {
+    color: #3f87f5;
 }
