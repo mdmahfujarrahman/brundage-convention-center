@@ -23,6 +23,7 @@
     </head>
     <body>
         <header>
+          <!-- navber -->
             <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #313131;">
                 <div class="container navbar-text-color">
                     <a class="navbar-brand text-white" href="#">Brundage Convention Center</a>
@@ -125,17 +126,35 @@
             </section>
         </header>
         <main>
+
           <section>
             <div class="container mt-5">
               <div class="row">
                 <div class="col-12 col-md-6 col-lg-6">
                   <img class="rounded img-fluid" src="/images/Slider/wedding.png" alt="flower">
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 align-items-center">
-                  <h2 class="fs-1 fw-bold">Simple Summit Ceremony</h2>
-                  <p>Breathtaking views of mountaintops and mountain lakes will make your wedding ceremony one to remember. Landmarks like Granite Mountain, the Seven Devils Range, and the Payette Lakes will dot your memories and your photos.</p>
-                  <button>Choose Wedding Venues <img src="/images/icons/arrow-forward 1.svg" alt=""></button>
+                <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center">
+                  <div class="text-center text-md-start my-5 my-md-0">
+                    <h2 class="fs-1 fw-bold">Simple Summit Ceremony</h2>
+                    <p>Breathtaking views of mountaintops and mountain lakes will make your wedding ceremony one to remember. Landmarks like Granite Mountain, the Seven Devils Range, and the Payette Lakes will dot your memories and your photos.</p>
+                    <button class="btn btn-primary rounded-0"> <a class="text-decoration-none text-white" target="_blank" href="https://brundage.com/events/">Choose Wedding Venues <img src="/images/icons/arrow-forward 1.svg" alt=""></a></button>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="toast" role="alert" id="mytoast" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header">
+                <img src="/images/icons/ctor.svg" class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="close" data-bs-dismiss="toast" aria-label="Close">
+                  <span>&times;</span>
+                </button>
+              </div>
+              <div class="toast-body text-left">
+                20% off on next booking
               </div>
             </div>
           </section>
@@ -147,5 +166,9 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         ></script>
+        <script>
+          $('#mytoast').toast({delay:5000});
+          $('#mytoast').toast("show");
+        </script>
     </body>
 </html>
