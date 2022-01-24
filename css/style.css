@@ -16,3 +16,24 @@
     color: #3f87f5;
     text-decoration: none;
 }
+.package-tick {
+    background-color: #edecf9;
+    color: #5243c2;
+}
+.weeding-plus {
+    color: #ffffff;
+    background-color: #3f87f5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    background-image: url(/images/icons/watermark.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: relative;
+
+    bottom: 90px;
+    padding: 15px 15px;
+}
+.hot-badge {
+    top: -20px;
+    right: -240px;
+}
