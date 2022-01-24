@@ -26,7 +26,7 @@
     <body>
         <header>
           <!-- navber -->
-            <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #313131;">
+            <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #313131;">
                 <div class="container navbar-text-color">
                     <a class="navbar-brand text-white" href="#">Brundage Convention Center</a>
                     <button
@@ -71,7 +71,7 @@
             </nav>
             <!-- banner section -->
             <section>
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="carousel-inner ">
                       <div class="carousel-item active">
-                        <img src="/images/Slider/banner.png" class="d-block w-100" alt="convocation hall">
+                        <div class="banner" style="background-image: url('/images/Slider/banner.png');"></div>
                         <div class="carousel-caption d-block">
                           <h5 class="fs-1" >The Idaho Wedding 
                             <br> 
@@ -91,7 +91,7 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="/images/Slider/banner-2.png" class="d-block w-100" alt="pools space">
+                        <div class="banner" style="background-image: url('/images/Slider/banner-2.png');"></div>
                         <div class="carousel-caption d-block">
                           <h5 class="fs-1" > Vent Menu Featuring A
                             <br> 
@@ -104,7 +104,7 @@
                         </div>
                       </div>
                       <div class="carousel-item ">
-                        <img src="/images/Slider/banner-3.png" class="d-block w-100" alt="Convocation Stage">
+                        <div class="banner" style="background-image: url('/images/Slider/banner-3.png');"></div>
                         <div class="carousel-caption d-block">
                           <h5 class="fs-1" >Planning a Banquet 
                             <br> 
@@ -128,7 +128,7 @@
             </section>
         </header>
         <main>
-
+          <!-- ceremony section -->
           <section>
             <div class="container mt-5">
               <div class="row">
@@ -370,6 +370,7 @@
           </section>
         </main>
         <footer>
+          <!-- footer section -->
           <section class="bg-dark">
             <div class="container py-4">
               <div class="row d-flex justify-content-between align-items-center">

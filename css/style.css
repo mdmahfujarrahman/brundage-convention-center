@@ -21,6 +21,12 @@
     background-color: #edecf9;
     color: #5243c2;
 }
+/* banner section css */
+.banner {
+    min-height: 586px;
+    background-position-x: center;
+    background-size: cover;
+}
 
 /* package section css */
 @media (min-width: 1200px) {
@@ -33,7 +39,6 @@
         bottom: 90px;
     }
 }
-
 .wedding-plus {
     color: #ffffff;
     background-color: #3f87f5;
