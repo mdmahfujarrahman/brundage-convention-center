@@ -26,7 +26,7 @@
     <body>
         <header>
           <!-- navber -->
-            <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #313131;">
+            <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #313131;">
                 <div class="container navbar-text-color">
                     <a class="navbar-brand text-white" href="#">Brundage Convention Center</a>
                     <button
@@ -39,7 +39,7 @@
                         aria-label="Toggle navigation"
                     >
                         <span class="navbar-toggler-icon">
-                            <img src="/images/icons/menu-2 1.svg" alt="">
+                            <img class="" src="/images/icons/menu-2 1.svg" alt="">
                         </span>
                     </button>
                     <div
@@ -147,7 +147,7 @@
           </section>
           <!-- toast section -->
           <section>
-            <div class="toast-container" style="position: absolute; top: 800px; right: 10px;">
+            <div class="toast-container" style="position: absolute; top: 850px; right: 10px; z-index:1080;">
               <div class="toast fade show w-auto">
                   <div class="toast-header border-start border-bottom-0 border-primary border-5">
                       <strong class="ms-auto"><img src="/images/icons/Vector.svg" alt=""> <span>20% off on next booking</span></strong>
@@ -160,11 +160,11 @@
           <!-- package section -->
           <section>
             <div class="container my-5 ">
-              <h2 class="fs-1 fw-bold text-center mb-5 pb-5">Our package</h2>
-              <div class="row mt-5 w-auto">
+              <h2 class="fs-1 fw-bold text-center">Our package</h2>
+              <div class="row w-auto packages">
                 <div class="col-12 col-md-6 col-lg-3 mb-0 mb-md-5 mb-lg-0">
+                  <div class="card border-0">
                     <div class="card-body">
-
                       <div>
                         <h2 class="fs-1 fw-bold my-3">$900</h2>
                         <h2 class="fs-3 fw-bold my-3">Business fair</h2>
@@ -183,9 +183,11 @@
                       <div>
                         <button class="btn package-tick rounded-pill px-5 py-2 fw-bold">Choose plan</button>
                       </div>
-                     </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0 mb-lg-0 pb-5 pb-md-0 pb-lg-0 ">
+                  <div class="card border-0">
                     <div class="card-body">
                       <div>
                         <h2 class="fs-1 fw-bold my-3">$1200</h2>
@@ -205,16 +207,15 @@
                       <div>
                         <button class="btn package-tick rounded-pill px-5 py-2 fw-bold">Choose plan</button>
                       </div>
-                     </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 weeding-plus">
-                  <button type="button" class="btn position-relative hot-badge">
-                    
-                    <span class="position-absolute px-3 py-2 top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      Hot
+                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0 mb-lg-0">
+                  <div class="card border-0 wedding-plus">
+                    <span class="badge fs-6 position-absolute top-0 end-0 translate-middle rounded-pill bg-danger">
+                        Hot:
                       <span class="visually-hidden">unread messages</span>
                     </span>
-                  </button>
                     <div class="card-body">
                       <div>
                         <h2 class="fs-1 fw-bold my-4">$2000</h2>
@@ -234,8 +235,10 @@
                         <button class="btn package-tick rounded-pill px-5 py-2 fw-bold">Choose plan</button>
                       </div>
                      </div>
+                  </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card border-0">
                     <div class="card-body">
                       <div>
                         <h2 class="fs-1 fw-bold my-3">$2500</h2>
@@ -256,6 +259,7 @@
                         <button class="btn package-tick rounded-pill px-5 py-2 fw-bold">Choose plan</button>
                       </div>
                      </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -375,10 +379,10 @@
                 <div class="col-12 col-md-6 col-lg-6 text-light text-center text-lg-end py-3">
                   <h5>Get the App</h5>
                   <div class="py-3">
-                    <img src="/images/Slider/app-store.png" alt="apps store">
+                    <a target="_blank" href="https://apps.apple.com/us/app/wedding-spot/id1039250968"><img src="/images/Slider/app-store.png" alt="apps store"></a>
                   </div>
                   <div>
-                    <img src="/images/Slider/play-store.png" alt="play store">
+                    <a target="_black" href="https://play.google.com/store/apps/details?id=in.co.weddings.launcher"><img src="/images/Slider/play-store.png" alt="play store"></a>
                   </div>
                 </div>
               </div>

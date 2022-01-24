@@ -12,6 +12,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+/* color Section */
 .brand-color {
     color: #3f87f5;
     text-decoration: none;
@@ -20,7 +21,20 @@
     background-color: #edecf9;
     color: #5243c2;
 }
-.weeding-plus {
+
+/* package section css */
+@media (min-width: 1200px) {
+    .packages {
+        margin-top: 190px;
+    }
+
+    .wedding-plus {
+        position: relative;
+        bottom: 90px;
+    }
+}
+
+.wedding-plus {
     color: #ffffff;
     background-color: #3f87f5;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
@@ -28,11 +42,5 @@
     background-image: url(/images/icons/watermark.svg);
     background-repeat: no-repeat;
     background-position-x: right;
-    position: relative;
-    bottom: 90px;
-    padding: 15px 15px;
-}
-.hot-badge {
-    top: -20px;
-    right: -240px;
+    padding: 25px 15px;
 }
